@@ -155,3 +155,42 @@ a.button {
     font-weight: bold;
     color: #d35400;
 }
+
+.col-input-money {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #949494;
+    border-radius: 4px;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.col-input-money i {
+    width: 30%;
+    height: 30px;
+    text-align: center;
+}
+
+.col-input-money input {
+    width: 70%;
+    height: 30px;
+    border: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.col-input-money input:focus {
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.col-widget {
+    border: 1px solid #949494;
+    padding: 20px;
+    border-radius: 4px;
+}
