@@ -1,0 +1,157 @@
+/*
+.container {
+    padding: 10%;
+}
+
+.donation_widget {
+    width: 450px;
+    height: auto;
+    padding: 0 0px 0 0;
+    padding-bottom: 30px;
+}
+
+.content {
+    border: 1px solid #bdc3c7;
+}
+
+.donation_widget-progress {
+    width: 100%;
+    min-height: 10px;
+    border-bottom: 1px solid #bdc3c7;
+}
+
+
+.donation_widget-rematiningTime {
+    margin: 10px 0;
+    padding: 20px 20px 0 20px;
+}
+
+
+
+.donation_widget-info {
+    padding: 0 20px 0 20px;
+}
+
+.donation_widget-action {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    height: 100px;
+    margin-top: 20px;
+}
+
+.donation_widget-action_input {
+    width: 30%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+}
+
+.donation_widget-action_input input {
+    width: 30%;
+    height: 40px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    border: none;
+}
+
+.donation_widget-action_input input:focus {
+    border: none;
+    outline: none;
+}
+
+.donation_widget-action_input i {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.donation_widget-action_button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    width: 50%;
+    height: 40px;
+}
+
+a.button {
+    width: 60%;
+    height: 100%;
+    background-color: #27ae60;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: capitalize;
+    border-radius: 4px;
+}
+
+.donation_widget-rematiningTime,
+.donation_widget-info,
+.donation_widget-aboutLink {
+    padding-left: 9%;
+}
+
+a.button {
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.donation_widget-aboutLink a {
+    font-style: italic;
+    color: #54a0ff;
+}
+
+.donation_widget-otherActions {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.donation_widget-otherActions a {
+    display: inline-block;
+    text-decoration: none;
+    width: 50%;
+    padding: 10px 0;
+    text-align: center;
+    margin: 5px;
+    border: 1px solid #bdc3c7;
+    border-radius: 4px;
+    font-weight: bold;
+    color: #333;
+}
+
+*/
+
+.dw_p_progress_bar {
+    display: block;
+    background-color: #d35400;
+    height: 20px;
+    width: 80%;
+    border-radius: 1px;
+}
+
+.remaining-days {
+    font-weight: bold;
+    color: #d35400;
+}
