@@ -1,147 +1,21 @@
-/*
-.container {
-    padding: 10%;
+*{
+    box-sizing: border-box;
 }
 
-.donation_widget {
-    width: 450px;
-    height: auto;
-    padding: 0 0px 0 0;
-    padding-bottom: 30px;
+.arrow-down {
+    width: 0; 
+    height: 0; 
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    
+    border-top: 15px solid #6c757d;
+
+    position: relative;
+    top: -5px;
+    left: 80%;
+    z-index: -10;
 }
 
-.content {
-    border: 1px solid #bdc3c7;
-}
-
-.donation_widget-progress {
-    width: 100%;
-    min-height: 10px;
-    border-bottom: 1px solid #bdc3c7;
-}
-
-
-.donation_widget-rematiningTime {
-    margin: 10px 0;
-    padding: 20px 20px 0 20px;
-}
-
-
-
-.donation_widget-info {
-    padding: 0 20px 0 20px;
-}
-
-.donation_widget-action {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    height: 100px;
-    margin-top: 20px;
-}
-
-.donation_widget-action_input {
-    width: 30%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    border: 1px solid #bdc3c7;
-    border-radius: 4px;
-}
-
-.donation_widget-action_input input {
-    width: 30%;
-    height: 40px;
-    font-size: 20px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    border: none;
-}
-
-.donation_widget-action_input input:focus {
-    border: none;
-    outline: none;
-}
-
-.donation_widget-action_input i {
-    margin-left: 5px;
-    font-weight: bold;
-}
-
-.donation_widget-action_button {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    width: 50%;
-    height: 40px;
-}
-
-a.button {
-    width: 60%;
-    height: 100%;
-    background-color: #27ae60;
-    border: none;
-    outline: none;
-    color: #fff;
-    font-weight: bold;
-    text-transform: capitalize;
-    border-radius: 4px;
-}
-
-.donation_widget-rematiningTime,
-.donation_widget-info,
-.donation_widget-aboutLink {
-    padding-left: 9%;
-}
-
-a.button {
-    text-decoration: none;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-}
-
-.donation_widget-aboutLink a {
-    font-style: italic;
-    color: #54a0ff;
-}
-
-.donation_widget-otherActions {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    justify-items: center;
-    padding: 10px;
-    margin-top: 10px;
-}
-
-.donation_widget-otherActions a {
-    display: inline-block;
-    text-decoration: none;
-    width: 50%;
-    padding: 10px 0;
-    text-align: center;
-    margin: 5px;
-    border: 1px solid #bdc3c7;
-    border-radius: 4px;
-    font-weight: bold;
-    color: #333;
-}
-
-*/
 
 .dw_p_progress_bar {
     display: block;
@@ -161,17 +35,23 @@ a.button {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border: 1px solid #949494;
-    border-radius: 4px;
-    padding: 10px;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 16px;
+}
+.col-input-money:focus{
+    border: 1px solid #d8d8d8;
+}
+
+.div-input{
+    border: 1px solid #d8d8d8;
+    border-radius: 4px;
 }
 
 .col-input-money i {
     width: 30%;
-    height: 30px;
+    color: #b3b1b1;;
     text-align: center;
+    font-style: normal;
 }
 
 .col-input-money input {
@@ -179,18 +59,131 @@ a.button {
     height: 30px;
     border: none;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .col-input-money input:focus {
     border: none;
     outline: none;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .col-widget {
-    border: 1px solid #949494;
-    padding: 20px;
     border-radius: 4px;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.btn-action{
+    font-size: 14px;
+    background-color: #f1eded;
+    outline: none;
+    border: 1xp solid #a1a1a1;
+    font-weight: bold;
+    color: #a1a1a1;
+    padding: 10px;
+}
+
+.remaining-info,
+.col-info-text{
+    color: #a1a1a1;
+}
+
+.bordered-div{
+    border-left: 1px solid #d8d8d8;
+    border-right: 1px solid #d8d8d8;
+}
+
+.bordered-div-first{
+    border-top: 1px solid #d8d8d8;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.bordered-div-last{
+    border-bottom: 1px solid #d8d8d8;
+}
+
+
+
+.bordered-div-first .col-12{
+    padding-left: 0;
+}
+
+.bordered-div-first .col-12 span.dw_p_progress_bar{
+    border-bottom: 1px solid #a1a1a1;
+}
+.hidden{
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s linear 800ms, opacity 800ms;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+@media screen and (max-width: 480px) {
+    .widget{
+        max-width: 450px;
+    }
+    .row-actions .col-input-money div{
+        width: 100%;
+        padding: auto;
+        margin-bottom: 5px;
+    }
+
+    .row-buttons{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .col-save-later{
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-bottom: 5%;
+    }
+
+    .col-tell-friends{
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-bottom: 5%;
+        color: red;
+    }
+}
+
+@media screen and (min-width: 481px) {
+    .widget{
+        max-width: 450px;
+    }
+    .row-actions .col-input-money div{
+        width: 100%;
+        padding: auto;
+        margin-bottom: 5px;
+    }
+
+    .row-buttons{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .col-save-later{
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-bottom: 5%;
+    }
+
+    .col-tell-friends{
+        width: 100%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-bottom: 5%;
+    }
 }
